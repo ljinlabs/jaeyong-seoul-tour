@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;400;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.title {
+  background-color: hsla(240, 100%, 64%, 0.735);
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.itinerary {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.itinerary h2 {
+  font-size: 2.4rem;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  border-bottom: 3px solid yellow;
+}
+
+.itinerary-list {
+  list-style: none;
+}
+
+.date {
+  font-size: 1.6rem;
+}
+
+.time {
+  font-size: 1.2rem;
+}
+
+.itinerary-item {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.itinerary-item:not(:first-child) { 
+  border-top: 1px solid hsla(240, 100%, 64%, 0.735);
+  margin-top: 1em;
+}
+
+.itinerary-item:first-child {
+  margin-top: 1em;
+}
+
+
+.sub-item {
+  text-align: center;
+  font-size: 0.8rem;
+}
